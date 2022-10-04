@@ -8,7 +8,7 @@ interface Engine{
 interface Brake{
 	void brake();
 }
-interface MediaPlayer{
+interface MediaPlayer extends Brake{
 	void start();
 	void stop();
 }

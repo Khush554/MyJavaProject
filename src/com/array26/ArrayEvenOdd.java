@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class ArrayEvenOdd {
 	public static void even(int ar[]) {
+		
 		int counte=0,counto=0;
 		for(int i=0;i<ar.length;i++) {
 			if(ar[i]%2==0) {
@@ -16,18 +17,9 @@ public class ArrayEvenOdd {
 			
 		}
 		int even[]=new int[counte-1];
+		
 		int odd[]=new int[counto-1];
-		for(int i=0;i<ar.length;i++) {
-			if(ar[i]%2==0) {
-				System.out.println(ar[i]);
-				
-			}
-			else {
-				odd[i]=ar[i];
-			}
-		}
-		System.out.println(Arrays.toString(even));
-		System.out.println(Arrays.toString(odd));
+		
 		
 		
 	}
