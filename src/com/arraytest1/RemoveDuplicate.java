@@ -20,7 +20,7 @@ public class RemoveDuplicate {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a[]= {1,2,2,3,4,5};
+		int a[]= {1,4,2,3,2,1,2};
 		RemoveDuplicate.removed(a);
 
 	}

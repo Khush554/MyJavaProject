@@ -26,7 +26,7 @@ public class ArrDemo {
 	
 
 	}
-	System.out.println(min+""+result);
+	System.out.println(min);
 
 
 	}
