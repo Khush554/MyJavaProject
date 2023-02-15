@@ -13,7 +13,7 @@ public class CoffeeProject {
 	   c.show_message();
 	
     	c.show_coffee_type();
-		 System.out.println("Enter cofee....");
+		 System.out.println("Enter cofee.... Name from table");
 		 Scanner sc=new Scanner(System.in);
 		///here i m check coffee type//////// 
 		 char t=sc.next().charAt(0);
